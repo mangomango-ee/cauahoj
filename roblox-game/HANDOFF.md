@@ -9,6 +9,14 @@
 - Uživatel poskytl odkaz na původní sdílenou relaci: https://chatgpt.com/s/cx_6adc943ed96c8191a9b41cd2fb285c70
 - Obsah původní relace nebyl v tomto chatu přístupný, proto z něj nelze potvrdit koncept, gameplay, funkční skripty ani aktuální úkoly.
 
+## Kontrola dalšího zdrojového odkazu (24. 10. 2026)
+- Uživatel poskytl: https://github.com/mangomango-ee/caukymnauky/blob/main/roblox%20svet
+- Repozitář `mangomango-ee/caukymnauky` je dostupný.
+- Soubor `roblox svet` se podařilo načíst, ale jeho celý obsah je pouze jeden znak nového řádku (`\n`).
+- Soubor **není export Roblox Studia**, neobsahuje mapu, skripty ani assety.
+- Tento soubor se proto nepřenášel jako skutečný Roblox svět. Stále je nezbytné získat původní export `.rbxl` / `.rbxlx` nebo projektové soubory.
+- K přenosu skutečných zdrojů není nutné využívat Codex; po jejich poskytnutí je lze vložit do GitHubu samostatně.
+
 ## Stav ověření
 | Oblast | Stav |
 |---|---|
