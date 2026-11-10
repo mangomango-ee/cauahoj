@@ -1,15 +1,10 @@
-# Roblox hra — předání mezi ChatGPT
+# Wash Your Egg (Roblox) — předání
 
-Toto je **připravené úložiště**, nikoli dosud úplný export hry.
-
-Začni souborem [HANDOFF.md](HANDOFF.md).
-
-**Pozor:** Aktuálně v repozitáři nejsou skutečné soubory Roblox světa a skriptů. Je třeba je dodat z původního Roblox Studio / Codex prostředí.
+Začni souborem [HANDOFF.md](HANDOFF.md): pravidla spolupráce, vize, styl, stav a další krok.
+Starý prázdný handoff z 24. 10.: [HANDOFF_OLD_2026-10-24.md](HANDOFF_OLD_2026-10-24.md).
 
 | Složka | Účel |
 |---|---|
-| [world](world/) | Roblox Studio world/place export |
-| [scripts](scripts/) | Luau a Roblox skripty |
-| [assets](assets/) | Zdrojové assety |
-
-Po doplnění projektových souborů může jiný asistent pokračovat podle HANDOFF.md.
+| [world](world/) | export Roblox Studio place (.rbxl/.rbxlx), zatím prázdné |
+| [scripts](scripts/) | Luau skripty, zatím prázdné |
+| [assets](assets/) | zdroje a reference ([references](assets/references/)) |
