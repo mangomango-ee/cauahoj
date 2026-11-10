@@ -65,7 +65,7 @@ Hráč myje svět tlakovou myčkou („wapka“), nosí na zádech nádrž s vod
 - `ReplicatedStorage.Shared` s moduly Remotes, StatMath, Util a složkou Config (Achievements, Classes, Cleaning, Dev, Economy, Gamepasses, Guns, GunVisuals, Icons, Lobby, Maps, Pets, PetVisuals, Quests, Sounds, Story, Tanks, Tutorial, Upgrades, VolumeDirt)
 - `Workspace.Lobby` (Spawn, ProfessorSplash, LobbySpawn), `Workspace.Runs`, `Workspace.__Bench` (testovací kousky: stromy, květiny, země, trubky, cedule, materiály, shopkit)
 
-**Nesrovnalost:** autobus, tři stánky, truhly ani dlouhá mapa se zónami ve Studiu nalezeny nebyly. Buď je to jiná/starší verze projektu, nebo se tyto části nikdy neuložily. **Nejdřív zjisti od uživatele nebo ze souborů, která verze je správná.** Neničit existující kód.
+**Nesrovnalost:** autobus, tři stánky, truhly ani dlouhá mapa se zónami ve Studiu nalezeny nebyly. Díly v `__Bench` (05_playhere, 06_bays, 09_disc, 10_sign, 11_shopkit, 13_trees atd.) odpovídají nově dodanému referenčnímu listu lobby v `assets/references/` (obchody Upgrades/Rewards/Classes/Shop, Play Here, disk). Studio je tedy rozpracované lobby podle těchto referencí. To se liší od starších poznámek (autobus, stánky, truhly, „žádné Lego studs“). Aktuální zadání uživatele z 10. 11. je lobby podle `lobby_scene.png` a `lobby_parts_sheet.png`, ty mají přednost. Pokud se styl (Lego cihly se studs) a starý autobus/stánky vylučují, zeptej se uživatele. Neničit existující kód. Postup viz `GAUNTLET.md`.
 
 **Zbývá (podle zadání):** nová dlouhá mapa se zónami a bariérami, útesy podle reference, les s pestrými stromy, spawn hub s autobusem, rebirth oltář, vejce s raritami a efektem zahrabání, sprej a animace mytí, ekonomika, truhly v hře s odpočtem, import a rozmístění modelů.
 
